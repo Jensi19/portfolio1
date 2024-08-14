@@ -1,0 +1,130 @@
+html {
+  height: 100%;
+  width: 100%;
+}
+body{
+  background-color: lightgrey;
+  color: black;
+}
+header{
+  background-color: white;
+}
+.flex{
+  display: flex;
+}
+.logo img{
+  height: 78px;
+  width: 97px;
+}
+.con{
+  align-items: center;
+  gap: 12px;
+  padding: 13px;
+  margin-left: 10px;
+  list-style:none;
+  cursor : pointer;
+}
+.co:hover{
+  color : red;
+}
+.co:active{
+  color : deeppink;
+}
+.co{
+  list-style:none;
+  margin-left: 23px;
+}
+.container{
+  display: flex;
+  margin: 0 auto;
+  padding: 0 23px;
+  max-width: 1152px;
+  
+}
+.right button{
+  background-color: hotpink;
+  color: white;
+  cursor : pointer;
+}
+.right button img{
+  height: 23px;
+  width: 23px;
+}
+.right{
+  padding-left : 275px;
+  align-items: center;
+  margin : 16px;
+}
+.right button:hover{
+  background : transperent;
+  color : blue;
+}
+.right button:active{
+  color : black;
+}
+button{
+  text-align : center;
+}
+
+.dow{
+  height: 23px;
+  width: 23px;
+}
+.me{
+  height: 89px;
+  width: 95px;
+  margin-top: 45px;
+  margin-left: 78px;
+}
+.btn{
+  height: 34px;
+  width: 150px;
+  padding-left : 23px;
+  border:solid black;
+}
+.b{
+  padding-left : 45px;
+  gap : 45px;
+}
+.ifw{
+  margin-top : 300px;
+  gap : 45px;
+}
+.ifw1{
+  height: 56px;
+  width: 67px;
+}
+.b1{
+  padding-left : 300px;
+  gap : 45px;
+}
+.b2{
+  padding-left : 89px;
+  gap : 45px;
+}
+.b1:hover,.b2:hover{
+  border:2px solid blue;
+}
+.b1:active,.b2:active{
+  border:2px solid black;
+}
+.dev{
+  height: 300px;
+  width: 400px;
+}
+.right1{
+  padding-left : 500px;
+  align-items: center;
+  margin : 16px;
+}
+.pro{
+  margin-top : 475px;
+  padding-left : 500px;
+  color:blue;
+}
+footer{
+  background-color:white;
+  text-align:center;
+  padding : 23px;
+  cursoursor:pointer;
+}
